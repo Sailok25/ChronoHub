@@ -94,7 +94,6 @@ header {
 /* Apartado del MAIN */
 main {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -126,7 +125,6 @@ main {
 }
 
 
-/* Apartat del FOOTER */
 /* Apartat del FOOTER */
 footer {
     background-color: #333;
