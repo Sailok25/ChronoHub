@@ -97,8 +97,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 120px; /* Ajusta el margen superior según sea necesario */
-    margin-bottom: 120px; /* Ajusta el margen inferior según sea necesario */
+    flex-wrap: wrap;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 
@@ -138,8 +139,6 @@ footer {
 }
 
 
-/* Estilos específicos para el cronómetro */
-
 /* Contenedor del cronómetro */
 #cronometro {
     margin-top: 120px;
@@ -163,12 +162,11 @@ footer {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #333; /* Ajustamos el color de fondo de los botones */
-    color: #fff; /* Ajustamos el color del texto de los botones */
+    background-color: #333;
+    color: #fff;
     transition: color 0.3s ease-in-out;
 }
 
-/* Cambio de color al pasar el mouse sobre los botones del cronómetro */
 #cronometro button:hover {
     color: #ffcc00;
 }
